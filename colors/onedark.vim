@@ -286,6 +286,7 @@ call s:h("jsExtendsKeyword", { "fg": s:purple })
 call s:h("jsFrom", { "fg": s:purple })
 call s:h("jsFuncCall", { "fg": s:blue })
 call s:h("jsFunction", { "fg": s:purple })
+call s:h("jsGenerator", { "fg": s:yellow })
 call s:h("jsGlobalObjects", { "fg": s:yellow })
 call s:h("jsImport", { "fg": s:purple })
 call s:h("jsModuleAs", { "fg": s:purple })
@@ -334,6 +335,11 @@ call s:h("jsonNumError", { "fg": s:red, "gui": "reverse" })
 call s:h("jsonString", { "fg": s:green })
 call s:h("jsonStringSQError", { "fg": s:red, "gui": "reverse" })
 call s:h("jsonSemicolonError", { "fg": s:red, "gui": "reverse" })
+
+" LESS
+call s:h("lessVariable", { "fg": s:purple })
+call s:h("lessAmpersandChar", { "fg": s:white })
+call s:h("lessClass", { "fg": s:dark_yellow })
 
 " Markdown
 call s:h("markdownCode", { "fg": s:green })
